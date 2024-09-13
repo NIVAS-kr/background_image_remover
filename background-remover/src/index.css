@@ -1,0 +1,79 @@
+body{
+  background-color:black;
+  color:white;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+.container{
+  width:70%;
+  max-width:900px;
+  text-align:center;
+  background-color:#1f1f1f;
+  padding:30px;
+  border-radius:10px;
+  box-shadow: 0 8px 16px white;
+}
+.title{
+  font-size:36px;
+  margin-bottom:20px;
+}
+.upload-section{
+  margin-bottom:20px;
+
+}
+.upload-button{
+ display:inline-block;
+ background-color:#3a3a3a;
+ color:white;
+ padding:12px 24px;
+  cursor:pointer;
+}
+.upload-button:hover{
+  background-color:#555555;
+}
+.image-container{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:20px 0;
+}
+.preview-section,
+.result-section
+{
+  width:45%;
+}
+img{
+  border-radius:10px;
+  height:100px;
+}
+
+.image-result{
+width:100%;
+border-radius:10px;
+
+}
+.process-button{
+  display:inline-block;
+  background-color:#28a745;
+  color:white;
+  padding:14px 28px;
+  margin-top:20px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  font-size:18px;
+}
+.download-button{
+  display:inline-block;
+  background-color:#007bff;
+  color:white;
+  padding:10px 20px;
+  text-decoration:none;
+  margin-top:50px;
+
+
+}
